@@ -127,11 +127,10 @@ public class HomeworkLesson2 {
         }
         for (int i = 0; i < arr.length; i++) {
             leftSum += arr[i];
-            if (overallSum - leftSum == 0) {
+            if (leftSum == overallSum - leftSum {
                 return true;
             }
         }
         return false;
     }
 }
-
